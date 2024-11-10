@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Preview</title>
+    <link rel="stylesheet" href="preview.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <di>
+      <div id="generatedResume"></div>
+    
+
+    <!-- Footer placed outside of the resume-container -->
+    <footer class="Download-button">
+        <button class="neon-button" onclick="window.location.href='form.html'">
+            Edit Resume
+        </button>
+        
+
+      <!-- <button
+        class="neon-button"
+        onclick="showPopup('Download feature is under development')"
+      >
+        Download as PDF
+      </button>
+      <button
+        class="neon-button"
+        onclick="showPopup('Sharable link feature is under development')"
+      >
+        Sharable Link
+      </button> -->
+      <button class="neon-button" onclick="window.location.href='index.html'">
+        Back
+      </button>
+      <div id="popup" class="popup">
+        <span id="popupMessage"></span>
+        <button onclick="closePopup()">Close</button>
+      </div>
+    </footer>
+</div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2pdf.js/0.9.2/html2pdf.bundle.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
